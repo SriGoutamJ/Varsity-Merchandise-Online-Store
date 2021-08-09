@@ -1,0 +1,14 @@
+create database Crystallio_Eder; 
+use Crystallio_Eder;
+create table Products(productid varchar(20),productname varchar(20),category varchar(20),price decimal(10,2),description varchar(100),imgpath varchar(200));
+show tables;
+select * from Products;
+insert into Products values("1","Varsity Hoodie","top-wear",900.00,"An amazin Hoodie","./assets/img/hoodie");
+insert into Products values("2","Varsity Jacket","top-wear",1100.00,"An amazin Jacket","./assets/img/Varsity_jacket");
+insert into Products values("3","BasketBall Tank","top-wear",600.00,"An amazin Jersey Tank","./assets/img/tanks");
+insert into Products values("4","Sneakers","foot-wear",1200.00,"An amazin Sneaker","./assets/img/sneakr");
+insert into Products values("5","Jersey Shorts","bottom-wear",900.00,"An amazin pair of Shorts","./assets/img/shorts");
+insert into Products values("6","Championship Ring","Accessories",1800.00,"An amazin Ring","./assets/img/ring");
+insert into Products values("7","Baseball Gloves","Accessories",900.00,"An amazin pair of Gloves","./assets/img/gloves");
+insert into Products values("8","BaseBall Cap","top-wear",400.00,"An amazin Cap","./assets/img/cap1");
+select * from Products;
