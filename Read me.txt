@@ -1,0 +1,8 @@
+Crystallio Eder
+
+To run the project,
+
+1. Open 'Crystallio Eder' in Eclipse IDE as a Dynamic Web Project and set up Apace Tomcat Server and instantiate the runtime while creating the project.
+2. Use the MySQL Dumpfile to create the database in MySQL workbench.
+3. Open NewFile.jsp and replace 'root' with Database schema username and 'pass' with your password in line 93
+4. In Eclipse IDE, run the index.html file in WebContent on the server
